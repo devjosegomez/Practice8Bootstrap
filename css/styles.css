@@ -1,7 +1,80 @@
 *{ 
     font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
 }
+
 
 #logo{
     height: 85px;
+    float: right;
 }
+
+#logo:hover{
+    transform: rotate(20grad);
+}
+
+#encabezado{
+    background-color: gainsboro;
+}
+
+#menuHorizontal:hover{
+    background-color: red;
+}
+
+ul, ol, li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#menuHorizontal ul{
+    list-style-type: none;
+}
+
+#menuHorizontal li{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#menuHorizontal li a:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+#menuHorizontal{
+    background-color: forestgreen;
+    padding: 0px;
+    font-size: 18px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+#menuVertical{
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+#seccion{
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.impar{
+    background-color: orange;
+    text-align: center;
+}
+
+.par{
+    background-color: pink;
+    text-align: center;
+}
+
+#pie{
+    background-color: olivedrab;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: -100;
+}
+
